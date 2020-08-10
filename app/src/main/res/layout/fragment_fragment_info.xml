@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInfo"
+    android:background="@drawable/gradient"
+
+    >
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Profile"
+      android:textSize="60dp"
+      android:layout_marginLeft="30dp"
+      />
+  <ImageView
+      android:id="@+id/iv_profilestu"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_marginLeft="150dp"
+      android:layout_marginTop="90dp"
+      />
+  <TextView
+      android:id="@+id/tv_profname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="name"
+      android:textSize="33dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="260dp"
+      />
+  <TextView
+      android:id="@+id/tv_profaddr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="address"
+      android:textSize="33dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="320dp"
+      />
+  <TextView
+      android:id="@+id/tv_profemail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="email"
+      android:textSize="33dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="380dp"
+      />
+  <TextView
+      android:id="@+id/tv_profage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="age"
+      android:textSize="33dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="440dp"
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:id="@+id/logoutstu"
+    android:text="log out"
+      android:layout_marginTop="600dp"
+      android:layout_marginLeft="100dp"
+    />
+
+
+
+</FrameLayout>

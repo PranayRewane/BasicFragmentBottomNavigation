@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInfoNGO"
+    android:background="@drawable/gradient"
+
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="your Profile"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageView
+        android:id="@+id/iv_profilen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="90dp"
+        />
+    <TextView
+        android:id="@+id/tv_profnamen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        />
+    <TextView
+        android:id="@+id/tv_profaddrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textSize="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        />
+    <TextView
+        android:id="@+id/tv_profemailn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        />
+    <TextView
+        android:id="@+id/tv_profagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:textSize="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        />
+
+
+
+</FrameLayout>
